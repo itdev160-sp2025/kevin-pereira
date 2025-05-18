@@ -1,0 +1,77 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightgreen;
+    color: #4b3e2e;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #fcd9a0;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid #f6b351;
+}
+
+.header-title {
+    font-size: 2.5rem;
+    color: #5b432a;
+    margin: 0;
+}
+
+.header-menu {
+    margin-top: 10px;
+}
+
+button#new-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #f6b351;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button#new-button:hover {
+    background-color: #e69b2e;
+}
+
+main {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+#about-content,
+#contact-info {
+    background-color: #fffdf7;
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #f3cc95;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03);
+}
+
+footer {
+    background-color: #fcd9a0;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+    border-top: 3px solid #f6b351;
+}
+
+footer a {
+    color: #5b432a;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
